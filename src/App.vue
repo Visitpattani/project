@@ -9,9 +9,9 @@
         <h2>ผลการเก็บข้อมูลจากการ Check In </h2>
         
       <div class="row">
-<div class="col-sm-3"><h1><b-form-select  v-model="selected2" :options="options2" class="mb-3"  /></h1></div>
-<div class="col-sm-3"> <h1><b-form-select  v-model="selected1" :options="options1" class="mb-3" /></h1></div>
-<div class="col-sm-3"> <h1><b-form-select v-model="selected" :options="options" class="mb-3" /></h1></div>
+<div class="col-sm-2"><h1><b-form-select  v-model="selected2" :options="options2" class="mb-3"  /></h1></div>
+<div class="col-sm-2"> <h1><b-form-select  v-model="selected1" :options="options1" class="mb-3" /></h1></div>
+<div class="col-sm-2"> <h1><b-form-select v-model="selected" :options="options" class="mb-3" /></h1></div>
 
 
 </div>
