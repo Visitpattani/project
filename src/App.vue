@@ -62,7 +62,7 @@ import BootstrapVue from 'bootstrap-vue'
 import Vue from 'vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
+//test git
 
 let config = {
    apiKey: "AIzaSyCPOSwMdKirDt3Dw0prP4tv7S5vk12xpRg",
