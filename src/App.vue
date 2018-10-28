@@ -6,7 +6,7 @@
     <div class = "page-header">
       <h1 align="center">Visit Pattani</h1>
       <div>
-        <h3>ผลการเก็บข้อมูลจากการ Check In </h3>
+        <h2>ผลการเก็บข้อมูลจากการ Check In </h2>
         
       <div class="row">
 <div class="col-sm-3"><h1><b-form-select  v-model="selected2" :options="options2" class="mb-3"  /></h1></div>
@@ -16,7 +16,7 @@
 
 </div>
   <div id="hel">
-          <button v-on:click="calculate">Search</button>
+          <button  v-on:click="calculate">Search</button>
           
         </div>
         
@@ -24,7 +24,7 @@
     </div>
     <div class="panel panel-default">
         <div class="panel-heading">
-          <h3>Places Rating</h3>
+          <h3>Place Ratings</h3>
         </div>
         <div class="panel-body">
           <table class="table table striped">
@@ -62,7 +62,7 @@ import BootstrapVue from 'bootstrap-vue'
 import Vue from 'vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-//test git gg
+
 
 let config = {
    apiKey: "AIzaSyCPOSwMdKirDt3Dw0prP4tv7S5vk12xpRg",
@@ -100,7 +100,7 @@ export default {
         { value: '11', text: '11' },
         { value: '12', text: '12' },
         { value: '13', text: '13' },
-        { value: '14', text: '14' },//asd
+        { value: '14', text: '14' },
         { value: '15', text: '15' },
         { value: '16', text: '16' },
         { value: '17', text: '17' },
@@ -171,9 +171,7 @@ export default {
     
   }
   
-  ,firebase:{
-        books:booksRef
-      },
+
 
 }
 
